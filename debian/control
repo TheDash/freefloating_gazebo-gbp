@@ -1,0 +1,12 @@
+Source: ros-jade-freefloating-gazebo
+Section: misc
+Priority: extra
+Maintainer: Olivier Kermorgant <olivier_kermorgant@yahoo.fr>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-control-toolbox, ros-jade-gazebo-ros, ros-jade-message-generation, ros-jade-rostime, ros-jade-urdf
+Homepage: https://github.com/freefloating-gazebo/freefloating_gazebo
+Standards-Version: 3.9.2
+
+Package: ros-jade-freefloating-gazebo
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-control-toolbox, ros-jade-gazebo-ros, ros-jade-message-runtime, ros-jade-rostime, ros-jade-urdf
+Description: A plugin to simulate underwater vehicles in Gazebo and visualise with UWsim.
